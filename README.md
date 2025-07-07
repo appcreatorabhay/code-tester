@@ -4,26 +4,8 @@ This tool automatically generates, refines, and validates Google Test unit tests
 Upload your C++ project as a .zip and get high-quality, refined unit test files — plus build logs and code coverage.
 
 📁 Project Structure
-bash
-Copy
-Edit
-unit_test_generator_for_cpp/
-├── app.py                      # Streamlit frontend
-├── generate_tests.py          # Core logic for test generation & refinement
-├── prompts/
-│   ├── unit_test.yaml         # Initial test generation instructions
-│   └── refine_test.yaml       # Refinement instructions
-├── output/
-│   ├── test/                  # Raw generated tests
-│   │   └── refined/           # Final refined tests
-│   ├── logs/                  # Build logs
-│   └── coverage/              # HTML test coverage reports
-├── utils/
-│   ├── build_and_test.sh      # Builds & runs tests
-│   └── coverage.sh            # Generates code coverage (lcov + genhtml)
-├── requirements.txt
-├── README.md
-└── report.md                  # Final test coverage report (summary)
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/14e1f9c4-876f-467f-ac27-97912bc81631" />
+
 ⚙️ Features
 ✅ Upload C++ projects as .zip
 ✅ Extracts source files from nested folders
