@@ -1,0 +1,4 @@
+instruction: |
+  You are an AI assistant. Generate Google Test-based unit tests for the following C++ code.
+  Make sure each test file corresponds to one .cpp/.cc/.c++ file.
+  Do not include duplicate test logic. Ensure proper includes.

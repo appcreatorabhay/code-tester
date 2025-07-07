@@ -1,0 +1,5 @@
+instruction: |
+  The following test caused build failures. Refactor the test code to:
+  - Remove syntax or include issues
+  - Keep logic correct
+  - Make the test buildable and meaningful
